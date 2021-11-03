@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품구매 페이지</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-box container">
+      <img src="images/52_logo.webp" alt="logo">
+      <ul>
+        <li><a href="#">제품</a></li>
+        <li><a href="#">기획전</a></li>
+        <li><a href="#">스토리</a></li>
+        <li><a href="#">고객 서비스</a></li>
+        <li><a href="#">멤버십</a></li>
+        <li><a href="#">디지털프라자</a></li>
+        <li><a href="#">사회공헌</a></li>
+        <li><a href="#">비즈니스</a></li>
+      </ul>
+      <div class="iconbox">
+        <a href="#"><img src="images/icon1.png" alt="내정보"></a>
+        <a href="#"><img src="images/icon2.png" alt="장바구니"></a>
+        <a href="#"><img src="images/icon3.png" alt="검색"></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadCrumb container">
+    <span>HOME</span> &gt;
+    <span>모바일</span> &gt;
+    <span>스마트폰</span> &gt;
+    <span>갤럭시 Z 폴드3 5G</span>
+  </div>
+
+  <section id="product-detail">
+    <figure>
+      <img src="images/black.webp" alt="갤럭시 Z 폴드3 블랙">
+    </figure>
+    <div class="info">
+      <h2>갤럭시 Z 폴드3 5G 자급제</h2>
+      <span class="product-code">SM-F926NZSAKOO</span>
+      <div class="price-box">
+        <span class="price-title">판매가</span> 
+        <div>
+          <span class="price">1,998,700</span>원
+        </div>
+      </div>
+      <ul class="option">
+        <li class="colorOption">
+          <h3>색상</h3>
+          <div>
+            <p class="colorTxt">블랙</p>
+            <div class="color-list">
+              <button class="color">1</button>
+              <button class="color">2</button>
+              <button class="color">3</button>
+            </div>
+          </div>
+        </li>
+        <li class="memoryOption">
+          <h3>메모리</h3>
+          <p class="memory">256 GB</p>
+          <select name="memory" id="memory">
+            <option value="256">256</option>
+            <option value="512">512</option>
+          </select>
+        </li>
+        <li class="numberOption">
+          <h3>수량</h3>
+          <input type="number" value="1" class="count" min="1" max="10">
+        </li>
+      </ul>
+      <div class="total-price-box">
+        <p>판매가</p>
+        <div>
+          <span class="total-price">1,998,700</span>원
+        </div>
+      </div>
+      <div class="button-group">
+        <button class="btn cartBtn">장바구니</button>
+        <button class="btn buyBtn">바로구매</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footerbox">
+      <ul>
+        <li class="over">
+        <h3><a href="#">제품</a>
+        </h3>
+          <ul>
+            <li><a href="#">갤럭시</a></li>
+            <li><a href="#">스마트폰</a></li>
+            <li><a href="#">태블릿</a></li>
+            <li><a href="#">갤럭시북</a></li>
+            <li><a href="#">워치</a></li>
+            <li><a href="#">버즈</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Lifestyle TV</a></li>
+            <li><a href="#">BESPOKE</a></li>
+            <li><a href="#">냉장고</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3><a href="#">고객서비스</a>
+          </h3>
+          <ul>
+            <li><a href="#">삼성닷컴FAQ</a></li>
+            <li><a href="#">이메일상담</a></li>
+            <li><a href="#">매장찾기</a></li>
+            <li><a href="#">서비스센터 찾기</a></li>
+            <li><a href="#">디지털프라자</a></li>
+            <li><a href="#">MD 비즈니스 협력제안</a></li>
+            <li><a href="#">비즈니스 협력제안</a></li>
+            <li><a href="#">삼성멤버스 커뮤니티</a></li>
+            <li><a href="#">E-카탈로그</a></li>
+            <li><a href="#">고객의 소리</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3><a href="#">지속가능경영</a>
+          </h3>
+          <ul>
+            <li><a href="#">개요</a></li>
+            <li><a href="#">환경</a></li>
+            <li><a href="#">사회공헌</a></li>
+            <li><a href="#">디지털 책임</a></li>
+            <li><a href="#">노동과 인권</a></li>
+            <li><a href="#">다양성과 포용</a></li>
+            <li><a href="#">지속가능한 공급망</a></li>
+            <li><a href="#">제품 접근성</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3><a href="#">회사소개</a>
+          </h3>
+          <ul>
+            <li><a href="#">기업정보</a></li>
+            <li><a href="#">사업정보</a></li>
+            <li><a href="#">브랜드 아이덴티티</a></li>
+            <li><a href="#">채용</a></li>
+            <li><a href="#">투자자 정보</a></li>
+            <li><a href="#">뉴스룸</a></li>
+            <li><a href="#">윤리</a></li>
+            <li><a href="#">디자인 삼성</a></li>
+            <li><a href="#">배당조회</a></li>
+            <li><a href="#">공지사항</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>
+            <a href="#">윤리&준법경영</a>
+          </h3>
+          <ul>
+            <li>
+              <a href="#">경영원칙</a>
+            </li>
+            <li>
+              <a href="#">부정제보</a>
+            </li>
+            <li>
+              <a href="#">법위반제보</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>
+            <a href="#">부가정보</a>
+          </h3>
+          <ul>
+            <li>
+              <a href="#">데이코</a>
+            </li>
+            <li>
+              <a href="#">협력회사 사이버 신문고</a>
+            </li>
+            <li>
+              <a href="#">페카트리지 회수신청</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

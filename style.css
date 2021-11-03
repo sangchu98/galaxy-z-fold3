@@ -1,0 +1,262 @@
+/* style.css */
+:root {
+    --bg-color: #ddd;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  body {
+    font-family: "맑은 고딕", sans-serif;
+    color: #333;
+    background: var(--bg-color);
+  }
+  
+  section, .container {
+    width: 1200px;
+    margin: 0 auto;
+    background: var(--bg-color);
+  }
+
+  header{
+    width: 100%;
+    background: #fff;
+    border-bottom:1px solid #ccc;
+  }
+  ul{
+    list-style: none;
+  }
+
+  .header-box ul li{
+    display: inline-block;
+  }
+
+  .header-box {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    height: 70px;
+    position: relative;
+
+  }
+
+  .header-box > img{
+    width: 103.25px;
+    height: 16px;
+    margin-top: 26px;
+  }
+
+  .iconbox img{
+    width: 25px;
+    margin-top: 18px;
+    margin-right: 10px;
+  }
+
+  .header-box ul{
+    margin-left: 80px;
+    margin-top: 22px;
+  }
+
+  .header-box ul li{
+    margin-right: 15px;
+  }
+
+  .header-box .iconbox{
+    position: absolute;
+    right: 0;
+  }
+
+  .header-box .iconbox img{
+    margin-left: 10px;
+  }
+
+  .header-box ul li:hover a{
+    background: #000;
+    color: #fff;
+    padding: 10px 8px;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  
+  .breadCrumb {
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+  }
+  #product-detail {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  #product-detail figure {
+    width: 65%;
+    /* outline: 1px solid red; */
+  }
+  
+  #product-detail figure img {
+    width: 100%;
+  }
+  
+  #product-detail .info {
+    width: 35%;
+    /* outline: 1px solid red; */
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px;
+  }
+  
+  
+  /* 상세정보 */
+  #product-detail .info h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  #product-detail .product-code {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  #product-detail .price-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .option {
+    background: var(--bg-color);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .option > li {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option > li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .option > li > h3 {
+    color: #666;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  
+  .option .colorOption .color {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  .option .colorOption .color-list .color:nth-child(1) {
+    background: #000;
+  }
+  .option .colorOption .color-list .color:nth-child(2) {
+    background: #223631;
+  }
+  .option .colorOption .color-list .color:nth-child(3) {
+    background: #cac5c2;
+  }
+  
+  input, select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .numberOption .count {
+    width: 4em;
+    text-align: center;
+  }
+  
+  .total-price-box {
+    font-size: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+  }
+  
+  .total-price {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .button-group {
+    display: flex;
+  }
+  
+  .btn {
+    flex: 1;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cartBtn {
+    margin-right: 5px;
+  }
+  .buyBtn {
+    margin-left: 5px;
+    background: #000;
+    color: #fff;
+  }
+
+
+  footer{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin-top: 100px;
+  }
+  
+  .footerbox{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .footerbox > ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .footerbox > ul > li{
+    border-right: 1px solid #ccc;
+    padding-right: 40px;
+  } 
